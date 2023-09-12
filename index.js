@@ -91,3 +91,9 @@ scrollReveal().reveal(".home-content h1, .about-img img", { origin: "left" });
 scrollReveal().reveal(".home-content h3, .home-content p, .about-content", {
   origin: "right",
 });
+// Location
+console.log(location.href);
+console.log(location.host);
+console.log(location.pathname);
+console.log(location.search);
+location.replace("https://www.segyx-bf.com");
